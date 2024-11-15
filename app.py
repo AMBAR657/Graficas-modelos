@@ -1,4 +1,5 @@
-from flask import Flask, jsonify, request, send_file
+#Importaciones que se van a utilizar en el codigo 
+from flask import Flask, jsonify, request, send_file #Con flask se va a levantar el servicio 
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
